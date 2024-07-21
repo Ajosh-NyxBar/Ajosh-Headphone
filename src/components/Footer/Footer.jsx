@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-primary pt-12 pb-8 text-white overflow-x-hidden">
+      <footer className="bg-primary pt-12 pb-8 text-white overflow-hidden">
         <div className="container">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {/* company */}
@@ -49,7 +49,7 @@ const Footer = () => {
               className="space-y-6"
             >
               <h1 className="text-3xl font-bold">Quick Links</h1>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 gap-3">
                 <div>
                   <ul className="space-y-2">
                     <li>Home</li>
